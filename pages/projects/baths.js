@@ -5,7 +5,7 @@ import bathroom1after from '/public/bathrooms/bathroom1.jpg'
 import bathroom1before from '/public/bathrooms/bathroom1before.JPG'
 import bathroom2after from '/public/bathrooms/bathroom2.jpg'
 import bathroom2before from '/public/bathrooms/bathroom2before.JPG'
-import bathroom3 from '/public/bathrooms/bathroom3.PNG'
+import bathroom3 from '/public/bathrooms/bathroom3.png'
 import Link from 'next/link';
 import ProjectsNav from '/components/projectsNav'
 import { useState } from 'react';
