@@ -1,3 +1,9 @@
+:root {
+  --text-blue: rgb(42, 112, 174);
+  --text-grey: #4d4d4d;
+}
+
+
 html,
 body {
   padding: 0;
@@ -35,4 +41,14 @@ ul {
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
+}
+
+container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
 }

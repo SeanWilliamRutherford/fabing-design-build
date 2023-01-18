@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Deconico';
+    src: url('../public/fonts/DECONICO.otf');
+    font-weight: 800;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../public/fonts/Montserrat-Medium.ttf');
+    font-weight: 400;
+    font-style: normal;
+}   
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../public/fonts/Montserrat-Bold.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+

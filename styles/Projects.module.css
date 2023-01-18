@@ -1,0 +1,223 @@
+
+.body{
+   padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: mintcream;
+    
+}
+
+.top{
+    margin: 0 auto;
+    font-family: 'Montserrat';
+  min-height: 20vh;
+  margin-top: 5vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10vh;
+ 
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 1rem;
+    background-color: mintcream;
+    padding-top: 4vh;
+   
+}
+
+.title{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Montserrat';
+   font-size: xx-large;
+   font-weight: lighter;
+   color: var(--text-grey)
+
+}
+
+/*.title::after{
+   content: "";
+    display: block;
+    width: 200px;
+    border-bottom: 2px solid;
+    margin: 0 auto;
+
+}*/
+
+.card .beforeview{
+   width:100%;
+   height: min-content;
+   position: absolute;
+   
+   
+}
+
+
+.card button{
+   font-size: large;
+   z-index: 5;
+   font-family: 'Montserrat';
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   cursor: pointer;
+   display: none;
+   color:var(--text-blue);
+   opacity: 70%;
+   border: 10px;
+   border-radius: 5px;
+   border: 1px solid;
+   border-color: white;
+   transition:all 0.25s linear 0s;
+
+
+}
+
+
+ .card button:hover{
+   opacity: 80%;
+   border-color: var(--text-blue);
+
+   
+ }
+ 
+.card:hover button{
+   display: block;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2, 10, 40);
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.2) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.2) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    min-width: 0;
+    overflow: hidden;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+ }
+  
+.card:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+ }
+
+ .card:hover .cover {
+   background-color: rgba(3,126,243, 0.7);
+
+ }
+ .card p{
+   position:absolute;
+   font-size: large;
+   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+   display:none;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+ }
+ .card:hover p{
+   display: block;
+ }
+
+ .card:hover img{
+   opacity: 50%;
+ }
+
+ .cover{
+   display: flex;
+   width: fit-content;
+   height: fit-content;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .card:hover .cover {
+
+ }
+
+ .top h1{
+    padding-bottom: 5%;
+ }
+
+ .top ul{
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    list-style: none;
+    
+ }
+
+.item { 
+    font-family: 'Montserrat-Bold';
+    font-size: 15px;
+    color: var(--text-grey);
+ }
+
+
+ /*.link:after {
+    content: "";
+    display: block;
+    width: 0;
+    border-bottom: 2px solid;
+    margin: 0 auto;
+    transition:all 0.25s linear 0s;
+  }
+
+  .link:hover:after {
+    width: 85%;
+  }*/
+  .link{
+   transition:all 0.1s linear 0s;
+
+  }
+
+ .link:hover{
+
+    color: var(--text-blue)
+ }
+
+ /*.activelink:after {
+   content: "";
+   display: block;
+   width: 85%;
+   border-bottom: 2px solid;
+   margin: 0 auto;
+   transition:all 0.25s linear 0s;
+ }*/
+
+ 
+
+.activelink{
+   
+   color: var(--text-blue)
+}
+
+
+
+ @media (max-width: 460px) {
+   .item{
+      font-size: 12px;
+   }
+ }
