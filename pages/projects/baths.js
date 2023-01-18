@@ -5,7 +5,7 @@ import bathroom1after from '/public/bathrooms/bathroom1.jpg'
 import bathroom1before from '/public/bathrooms/bathroom1before.jpg'
 import bathroom2after from '/public/bathrooms/bathroom2.jpg'
 import bathroom2before from '/public/bathrooms/bathroom2before.jpg'
-import bathroom3 from '/public/bathrooms/bathroom3.png'
+//import bathroom3 from '/public/bathrooms/bathroom3.png'
 import Link from 'next/link';
 import ProjectsNav from '/components/projectsNav'
 import { useState } from 'react';
@@ -58,7 +58,7 @@ export default function Baths() {
           </div>
           </div>
           <div className={styles.card}>
-          <Image src={bathroom3}/******************/
+          <Image src={bathroom2after}/******************/
                  alt="Bathroom Image"
                  width={240}
                  height={320}
