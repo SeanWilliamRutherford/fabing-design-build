@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from '/styles/Projects.module.css';
 import bathroom1 from '/public/bathrooms/bathroom1.jpg'
 import bathroom2 from '/public/bathrooms/bathroom2.jpg'
-import bathroom3 from '/public/bathrooms/bathroom3.PNG'
+import bathroom3 from '/public/bathrooms/bathroom3.png'
 import Link from 'next/link';
 import ProjectsNav from '/components/projectsNav'
 

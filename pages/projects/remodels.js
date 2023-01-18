@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image';
 import styles from '/styles/Projects.module.css';
-import remodelBasement from '/public/remodels/remodel-basement.JPG'
+import remodelBasement from '/public/remodels/remodel-basement.jpg'
 
 import remodelKirkness from '/public/remodels/remodel-kirkness.jpg'
-import remodelUnk from '/public/remodels/remodel-unk.JPG'
+import remodelUnk from '/public/remodels/remodel-unk.jpg'
 import Link from 'next/link';
 import ProjectsNav from '/components/projectsNav'
 

@@ -3,11 +3,11 @@ import Image from 'next/image';
 import styles from '/styles/Projects.module.css';
 
 import kitchenBasementAfter from '/public/kitchens/kitchen-basement-after.jpg'
-import kitchenBasementBefore from '/public/kitchens/kitchen-basement-before.JPG'
+import kitchenBasementBefore from '/public/kitchens/kitchen-basement-before.jpg'
 import kitchenKirknessAfter from '/public/kitchens/kitchen-kirkness-after.jpg'
-import kitchenKirknessBefore from '/public/kitchens/kitchen-kirkness-before.JPG'
-import kitchenUnkAfter from '/public/kitchens/kitchen-unk-after.JPG'
-import kitchenUnkBefore from '/public/kitchens/kitchen-unk-before.JPG'
+import kitchenKirknessBefore from '/public/kitchens/kitchen-kirkness-before.jpg'
+import kitchenUnkAfter from '/public/kitchens/kitchen-unk-after.jpg'
+import kitchenUnkBefore from '/public/kitchens/kitchen-unk-before.jpg'
 
 import Link from 'next/link';
 import ProjectsNav from '/components/projectsNav'

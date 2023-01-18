@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image';
 import styles from '/styles/Projects.module.css';
 import bathroom1after from '/public/bathrooms/bathroom1.jpg'
-import bathroom1before from '/public/bathrooms/bathroom1before.JPG'
+import bathroom1before from '/public/bathrooms/bathroom1before.jpg'
 import bathroom2after from '/public/bathrooms/bathroom2.jpg'
-import bathroom2before from '/public/bathrooms/bathroom2before.JPG'
+import bathroom2before from '/public/bathrooms/bathroom2before.jpg'
 import bathroom3 from '/public/bathrooms/bathroom3.png'
 import Link from 'next/link';
 import ProjectsNav from '/components/projectsNav'
@@ -58,7 +58,7 @@ export default function Baths() {
           </div>
           </div>
           <div className={styles.card}>
-          <Image src={bathroom3}
+          <Image src={bathroom3}/******************/
                  alt="Bathroom Image"
                  width={240}
                  height={320}
