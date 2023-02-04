@@ -31,7 +31,7 @@
     justify-content: center;
     margin-left: 15rem;
     margin-right: 15rem;
-    font-family: Montserrat;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     margin-top: 0rem;
     gap: 30%;
     text-align:center;
@@ -99,7 +99,7 @@
     min-height: 400px;
     max-height: 500px;
     object-fit: contain;
-    font-family: Montserrat;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     color: black;
     font-size: xx-large;
 }
@@ -124,7 +124,7 @@
 
 .hero h1 {
   position: relative;
-  font-family: Montserrat;
+  font-family: 'Montserrat', Helvetica, sans-serif;
     color: white;
     font-size: 75px;
     padding-top: 2rem;
@@ -186,17 +186,13 @@
  @media (max-width: 440px ){
 
   .hero{
-    height: 200px;
+    height: 300px;
     align-items: top;
     transform: translateY(-90px);
   }
   .container{
     transform: translateY(-100px);
   }
-
-    .hero{
-      height:300px;
-    }
 
     .hero h1{
       font-size: 40px

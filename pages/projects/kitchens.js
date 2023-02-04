@@ -36,6 +36,16 @@ export default function Kitchens() {
 
   return (
     <div className={styles.body}>
+      <Head>
+        <title>
+          Kitchens - Fabing Design Build
+        </title>
+        <meta
+          name="description"
+          content="Check out our previous kitchen upgrades"
+          key="desc"
+        />
+      </Head>
         <>
         <ProjectsNav/>
         </>

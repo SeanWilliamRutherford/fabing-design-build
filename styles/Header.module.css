@@ -30,12 +30,12 @@
     flex-direction: row;
     align-items: center;
     color: var(--text-blue);
-    background-color: mintcream;
+    background-color: white;
     box-shadow: 1px 1px 8px rgb(198, 198, 198);
     /*position: relative;*/
     position: fixed;
     width: 100%;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 23px;
     z-index: 10;
   }
@@ -76,7 +76,7 @@
  }
 
 .item { 
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Bold', Helvetica, sans-serif;
     font-size: 15px;
     color: var(--text-grey);
  }
@@ -95,7 +95,7 @@
  }
 
 .header li { 
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Bold', Helvetica, sans-serif;
     font-size: 15px;
     color: var(--text-grey);
  }

@@ -9,8 +9,8 @@
 
 .top{
     margin: 0 auto;
-    font-family: 'Montserrat';
-  min-height: 20vh;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+  height: 20vh;
   margin-top: 5vh;
   padding: 0 0.5rem;
   display: flex;
@@ -35,7 +35,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   font-family: 'Montserrat';
+   font-family: 'Montserrat', Helvetica, sans-serif;
    font-size: xx-large;
    font-weight: lighter;
    color: var(--text-grey)
@@ -63,7 +63,7 @@
 .card button{
    font-size: large;
    z-index: 5;
-   font-family: 'Montserrat';
+   font-family: 'Montserrat', Helvetica, sans-serif;
    position: absolute;
    top: 50%;
    left: 50%;
@@ -138,8 +138,16 @@
    display: block;
  }
 
+ .card img{
+   cursor: pointer;
+ }
+ 
+ .nopointer img{
+   cursor: default;
+ }
+
  .card:hover img{
-   opacity: 50%;
+   opacity: 90%;
  }
 
  .cover{
@@ -148,10 +156,6 @@
    height: fit-content;
    justify-content: center;
    align-items: center;
- }
-
- .card:hover .cover {
-
  }
 
  .top h1{
@@ -166,11 +170,15 @@
     text-align: center;
     position: relative;
     list-style: none;
+    padding-bottom: 10%;
     
+ }
+ .top h1{
+   padding-top: 10%;
  }
 
 .item { 
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Bold', Helvetica, sans-serif;
     font-size: 15px;
     color: var(--text-grey);
  }
@@ -212,6 +220,13 @@
 .activelink{
    
    color: var(--text-blue)
+}
+
+.top h2{
+   color: var(--text-grey);
+   font-size: medium;
+   opacity: 60%;
+  
 }
 
 

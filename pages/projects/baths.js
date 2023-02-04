@@ -5,20 +5,24 @@ import bathroom1after from '/public/bathrooms/bathroom1.jpg'
 import bathroom1before from '/public/bathrooms/bathroom1before.jpg'
 import bathroom2after from '/public/bathrooms/bathroom2.jpg'
 import bathroom2before from '/public/bathrooms/bathroom2before.jpg'
-//import bathroom3 from '/public/bathrooms/bathroom3.png'
+import bathroom3after from '/public/bathrooms/bathroom3after.png'
+import bathroom3before from '/public/bathrooms/bathroom3before.jpg'
+
 import Link from 'next/link';
 import ProjectsNav from '/components/projectsNav'
 import { useState } from 'react';
 
 
 const bathroom = [bathroom1after, bathroom1before,
-                   bathroom2after, bathroom2before];
+                  bathroom2after, bathroom2before,
+                  bathroom3after, bathroom3before];
 
 
 export default function Baths() {
 
   const [pic1, setPic1] = useState(bathroom1after);
   const [pic2, setPic2] = useState(bathroom2after);
+  const [pic3, setPic3] = useState(bathroom3after);
 
   function switchImage(num, pic, setPic){
     if (pic == bathroom[1 + num]) {
@@ -31,6 +35,16 @@ export default function Baths() {
 
   return (
     <div className={styles.body}>
+      <Head>
+        <title>
+          Baths - Fabing Design Build
+        </title>
+        <meta
+          name="description"
+          content="Check out our previous bathroom upgrades"
+          key="desc"
+        />
+      </Head>
         <>
         <ProjectsNav/>
         </>
@@ -53,17 +67,17 @@ export default function Baths() {
                  onClick={() =>switchImage(2, pic2, setPic2)}
                  onMouseOut={() => setPic2(bathroom2after)}
             />
-          <div className={styles.beforeview}>  
-            <button onClick={() =>switchImage(2, pic2, setPic2)}>Before view</button>  
-          </div>
           </div>
           <div className={styles.card}>
-          <Image src={bathroom2after}/******************/
+            <div className={styles.nopointer}>
+          <Image src={pic3}/******************/
                  alt="Bathroom Image"
-                 width={240}
+                 width={260}
                  height={320}
+                 onClick={() =>switchImage(4, pic3, setPic3)}
+                 onMouseOut={() => setPic3(bathroom3after)}
             />
-             
+             </div>
           </div>
         </div>
 

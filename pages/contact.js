@@ -11,6 +11,16 @@ export default function Contact() {
   return (
     <>
     <div className={styles.fixer}>
+    <Head>
+        <title>
+          Contact - Fabing Design Build
+        </title>
+        <meta
+          name="description"
+          content="Contact us to get a quote or learn more"
+          key="desc"
+        />
+      </Head>
     <div className={styles.contact}>
       
 

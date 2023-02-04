@@ -7,6 +7,16 @@ import fabings from '../public/fabing_family.jpg'
 export default function About() {
   return (
     <div className={styles.body}>
+      <Head>
+        <title>
+          About - Fabing Design Build
+        </title>
+        <meta
+          name="description"
+          content="Efficient - Reliable - Family Oriented"
+          key="desc"
+        />
+      </Head>
       <div className={styles.container}>
           <div className={styles.top}>
             <div className={styles.abouttext}>

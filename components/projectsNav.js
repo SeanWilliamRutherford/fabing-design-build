@@ -3,6 +3,17 @@ import styles from '../styles/Projects.module.css';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
+/*
+Add back for development of Remodels tab
+
+<li className={styles.item}>
+    <Link href="/projects/remodels"className={currentRoute.startsWith("/projects/remodels") 
+        ? styles.activelink 
+        : styles.link}>Remodels</Link>
+</li>
+
+*/
+
 
 export default function ProjectsNav() {
 
@@ -26,17 +37,9 @@ export default function ProjectsNav() {
                         ? styles.activelink 
                         : styles.link}>Kitchens</Link>
                 </li>
-                <li className={styles.item}>
-                    <Link href="/projects/garages"className={currentRoute === "/projects/garages" 
-                        ? styles.activelink 
-                        : styles.link}>Garages</Link>
-                </li>
-                <li className={styles.item}>
-                    <Link href="/projects/remodels"className={currentRoute.startsWith("/projects/remodels") 
-                        ? styles.activelink 
-                        : styles.link}>Remodels</Link>
-                </li>
             </ul>
+
+            <h2>Click each image to see the before view!</h2>
             
         </div>
     </div>

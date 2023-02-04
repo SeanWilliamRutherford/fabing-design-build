@@ -20,7 +20,7 @@ export default function NavLinks(){
                         : styles.link}>HOME</Link>
                 </li>
                 <li>
-                    <Link href="/projects/remodels"
+                    <Link href="/projects/kitchens"
                         className={currentRoute.startsWith("/projects") 
                         ? styles.activelink 
                         : styles.link}>PROJECTS</Link>
