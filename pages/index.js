@@ -37,13 +37,13 @@ export default function Home() {
           <Link href="/projects/kitchens" passhref>
             <div className={styles.itemb}>
               <IoConstructOutline className={styles.icon} size='60px'/>
-              <h1>Our Work</h1>
+              <h2>Our Work</h2>
             </div>
           </Link>
           <Link href="/about" passhref>
             <div className={styles.itemf}>
               <MdEmojiPeople className={styles.icon} size = '60px' />
-              <h1>Who we are</h1>
+              <h3>Who we are</h3>
             </div>
           </Link>
         </div>
