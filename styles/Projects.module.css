@@ -3,7 +3,7 @@
    padding-top: 70px;
     display: flex;
     flex-direction: column;
-    background-color: mintcream;
+    background-color: whitesmoke;
     
 }
 
@@ -26,7 +26,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap: 1rem;
-    background-color: mintcream;
+    background-color: whitesmoke;
     padding-top: 4vh;
    
 }
@@ -229,10 +229,19 @@
   
 }
 
+@media (max-width: 950px){
+   .card:hover{
+      transform: none;
+   }
+}
 
 
- @media (max-width: 460px) {
-   .item{
-      font-size: 12px;
+
+ @media (max-width: 300px) {
+   .card {
+      max-width: 280px;
+   }
+   .card img{ 
+      max-width: 280px;
    }
  }

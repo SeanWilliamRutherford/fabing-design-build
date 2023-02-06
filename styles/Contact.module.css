@@ -214,11 +214,13 @@
   }
 
   .displaylink .link{
+    display: none;
+   
     font-size: x-small;
   }
 
   .icon{
-    margin-top: 30px;
+    margin-top: 10px;
     size: 70px
 
   }
