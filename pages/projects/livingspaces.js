@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image';
 import styles from '/styles/Projects.module.css';
 
-import livingAfterA from '/public/living/living-after-1.png'
+import livingAfterA from '/public/living/living-after-1.jpg'
 import livingBeforeA from '/public/living/living-before-1.jpg'
-import livingAfterB from '/public/living/living-after-2.png'
+import livingAfterB from '/public/living/living-after-2.jpg'
 import livingBeforeB from '/public/living/living-before-2.jpg'
 
 import Link from 'next/link';
