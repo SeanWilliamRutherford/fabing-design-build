@@ -48,7 +48,7 @@
 .top{
     background-image: linear-gradient(
                     rgba(0, 0, 0, 0.5),
-                    rgba(0, 0, 0, 0.5)), url(../public/background-alberta-canola.jpeg);
+                    rgba(0, 0, 0, 0.5)), url(../public/fabing-background-kitchen.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -67,7 +67,7 @@
 .bottom {
     background-image:linear-gradient(
                     rgba(0, 0, 0, 0.5),
-                    rgba(0, 0, 0, 0.5)), url(../public/fabing_family.jpg);
+                    rgba(0, 0, 0, 0.5)), url(../public/fabing-background-bathroom.jpg);
     background-size: cover;
     background-position: right;
     display: flex;

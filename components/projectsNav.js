@@ -37,6 +37,11 @@ export default function ProjectsNav() {
                         ? styles.activelink 
                         : styles.link}>Kitchens</Link>
                 </li>
+                <li className={styles.item}>
+                    <Link href="/projects/livingspaces"className={currentRoute === "/projects/livingspaces" 
+                        ? styles.activelink 
+                        : styles.link}>Living Spaces</Link>
+                </li>
             </ul>
 
             <h2>Click each image to see the before view!</h2>
