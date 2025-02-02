@@ -1,7 +1,7 @@
 import styles from '../styles/Header.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import logo from '../public/logos/Fabing.png'
+import logo from '../public/logos/fabing-logo-only.png'
 import HeaderNav from './headerNav'
 import SidebarNav from './sidebarNav'
 
@@ -12,6 +12,7 @@ export default function Header() {
         <header className={styles.header}>
         <Link href="/" passHref>
             <Image
+                className={styles.image}
                 src={logo}
                 alt="company logo"
                 width={50}

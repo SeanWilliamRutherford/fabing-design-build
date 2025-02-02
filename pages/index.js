@@ -4,7 +4,7 @@ import Image from 'next/image';
 //import Button from 'bootstrap'
 import styles from '../styles/Home.module.css';
 //import 'bootstrap/dist/css/bootstrap.css'
-import image1 from '../public/logos/Fabing.png'
+import image1 from '../public/logos/fabing-logo-only.png'
 import {IoConstructOutline} from 'react-icons/io5'
 import {MdEmojiPeople} from 'react-icons/md'
 import {AiOutlineArrowRight} from 'react-icons/ai'

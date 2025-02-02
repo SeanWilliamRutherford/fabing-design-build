@@ -1,7 +1,7 @@
 import styles from '../styles/Header.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import logo from '../public/logos/Fabing.png'
+import logo from '../public/logos/fabing-logo-only.png'
 import NavLinks from './navLinks'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import { useState } from 'react'

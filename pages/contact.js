@@ -41,10 +41,10 @@ export default function Contact() {
         </div>
         </Link>
 
-        <Link href={'tel:(780)235-4645'} passHref>
+        <Link href={'tel:(780)288-2797'} passHref>
         <div className={styles.displaylink}>
           <FiPhone className={styles.icon} size='70px'/>
-          <h5 className={styles.link}>780 235 4645</h5>
+          <h5 className={styles.link}>780 288 2797</h5>
         </div>
         </Link>
         
