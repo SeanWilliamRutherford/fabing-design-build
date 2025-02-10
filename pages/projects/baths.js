@@ -5,7 +5,7 @@ import bathroom1after from '/public/bathrooms/bathroom1.jpg'
 import bathroom1before from '/public/bathrooms/bathroom1before.jpg'
 import bathroom2after from '/public/bathrooms/bathroom2.jpg'
 import bathroom2before from '/public/bathrooms/bathroom2before.jpg'
-import bathroom3after from '/public/bathrooms/bathroom3after.png'
+import bathroom3after from '/public/bathrooms/bathroom3after.jpg'
 import bathroom3before from '/public/bathrooms/bathroom3before.jpg'
 
 import Link from 'next/link';

@@ -26,9 +26,8 @@ export default function Contact() {
 
       <div className={styles.hero}>
           <h1>Contact us</h1>
-          <p>If you want to
-            upgrade your home or rental to incorporate a legal basement suite or increase the value with an
-            extension, we can help.
+          <p>We promise strong and responsive communication, adaptability, knowledge and leadership
+             so that your home or office has the form and function it deserves
           </p>
       </div>
 

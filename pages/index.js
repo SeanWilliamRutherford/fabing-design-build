@@ -24,7 +24,8 @@ export default function Home() {
         />
       </Head>
         <div className={styles.itema}>
-          <h1>Full Scale Design-Build.</h1>
+          <h1>Edmonton based, family owned</h1>
+          <h2>Residential & Commercial General Contractor</h2>
           <Link href="/contact" passHref> 
             <button className={styles.contactbutton} variant="outline" color="primary">
               Contact Us
