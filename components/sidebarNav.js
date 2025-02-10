@@ -13,9 +13,9 @@ export default function SidebarNav(){
 
     return(
         <>
-        <nav className={styles.sidebarNav}>
+        <nav className={styles.sidebarNav} onClick={() => setOpen(!open)}>
             <GiHamburgerMenu className={styles.Burger} size = '40px' color = 'black'
-                            onClick={() => setOpen(!open)}/>
+                            />
             {open && <NavLinks/>}
         </nav>
         </>
