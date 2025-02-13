@@ -21,7 +21,7 @@ export default function About() {
           <div className={styles.top}>
             <div className={styles.abouttext}>
             <h1>What we offer</h1>
-            <p>We have a passion to earn your respect & trust 
+            <p>We are passoinate about earning your respect and trust 
                 as we pay close attention to 
                 all the critical & valuable details 
                 of your residential or commercial project              
@@ -35,7 +35,6 @@ export default function About() {
            <div className={styles.abouttext}>
             <h2>Our Story</h2>
             <p>Fabing Contracting Inc. started in 1995 delivering cost effective & timely construction management services throughout Alberta and British Columbia, Canada</p>
-            <h3>MISSION</h3>
             <p>We promise strong and responsive communication, adaptability, knowledge and leadership so that your home or office has the form and function it deserves</p>
           </div>
           </div>
