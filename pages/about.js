@@ -21,7 +21,7 @@ export default function About() {
           <div className={styles.top}>
             <div className={styles.abouttext}>
             <h1>What we offer</h1>
-            <p>We are passoinate about earning your respect and trust 
+            <p>We are passionate about earning your respect and trust 
                 as we pay close attention to 
                 all the critical & valuable details 
                 of your residential or commercial project              
