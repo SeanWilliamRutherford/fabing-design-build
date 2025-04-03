@@ -33,10 +33,10 @@ export default function Contact() {
 
       <div className={styles.container}>
 
-        <Link href={'mailto: fabing@ualberta.ca'} passHref>
+        <Link href={'mailto: wayne@fabingdesignbuild.ca'} passHref>
         <div className={styles.displaylink}>
           <FiMail className={styles.icon} size='70px'/>
-          <h5 className={styles.link} >fabing@ualberta.ca</h5>
+          <h5 className={styles.link} >wayne@fabingdesignbuild.ca</h5>
         </div>
         </Link>
 
